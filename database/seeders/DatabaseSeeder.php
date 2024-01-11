@@ -29,12 +29,12 @@ class DatabaseSeeder extends Seeder
         Comment::factory()->count(40)->create();
 
         User::factory()->create([
-            "name"=>"User1",
+            "name"=>"user1",
             "email"=>"user1@gmail.com"
         ]);
 
         User::factory()->create([
-            "name"=>"User2",
+            "name"=>"user2",
             "email"=>"user2@gmail.com"
         ]);
     }
